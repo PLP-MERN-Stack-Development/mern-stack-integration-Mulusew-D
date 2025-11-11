@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ✅ Basic Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERN Blog</title>
+    <meta name="description" content="A full-stack MERN blog application built with MongoDB, Express, React, and Node.js." />
+
+    <!-- ✅ SEO Tags -->
+    <meta name="keywords" content="MERN, Blog, MongoDB, React, Node.js, Express" />
+    <meta name="author" content="Mulusew Desale" />
+
+        <!-- ✅ Global CSS -->
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- ✅ Inline CSS -->
+    <style>
+      /* ✅ Base Styles */
+      :root {
+        --bg-light: #f9f9f9;
+        --text-light: #222;
+        --primary: #4a90e2;
+        --accent: #ff8c00;
+        --font-main: 'Inter', Arial, sans-serif;
+
+        /* Dark Mode */
+        --bg-dark: #1a1a1a;
+        --text-dark: #eaeaea;
+      }
+
+      body {
+        margin: 0;
+        font-family: var(--font-main);
+        background: var(--bg-light);
+        color: var(--text-light);
+        transition: background 0.3s ease, color 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      body.dark-mode {
+        background: var(--bg-dark);
+        color: var(--text-dark);
+      }
+
+      #root {
+        padding: 24px;
+        max-width: 900px;
+        margin: auto;
+        flex: 1;
+      }
+
+      /* ✅ Layout Enhancements */
+      header {
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2rem;
+        color: var(--primary);
+      }
+
+      /* ✅ Navigation */
+      nav {
+        display: flex;
+        gap: 16px;
+      }
+
+      .nav-link {
+        text-decoration: none;
+        color: var(--primary);
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+
+      .nav-link:hover {
+        color: var(--accent);
+      }
+
+      body.dark-mode .nav-link {
+        color: #78aaff;
+      }
+
+      body.dark-mode .nav-link:hover {
+        color: var(--accent);
+      }
+
+      /* ✅ Footer */
+      footer {
+        background: #f1f1f1;
+        padding: 16px;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #555;
+      }
+
+      body.dark-mode footer {
+        background: #222;
+        color: #aaa;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>MERN Blog</h1>
+      </header>
+    <div id="root"></div>
+
+    <!-- ✅ Footer -->
+    <footer>
+      &copy; 2025 MERN Blog. All rights reserved.
+    </footer>
+
+    <!-- ✅ Main React Entry -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
