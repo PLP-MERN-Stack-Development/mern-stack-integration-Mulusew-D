@@ -23,6 +23,6 @@
 
 
 ## Image of the Application
-![image alt](https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Mulusew-D/blob/ecc6845e88183c849aac26329f0f382e4fb3d23b/1.png)
+![image alt](https://github.com/PLP-MERN-Stack-Development/mern-stack-integration-Mulusew-D/blob/9c2365d442b6c17d116265e41604a2e9058da460/Frontend/Home.png)
 ![image alt](https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Mulusew-D/blob/e30414b861dde6ebd3a69baf0820e4e26b51f3b5/2.png)
 
