@@ -3,7 +3,7 @@
 ## Run
 1. `npm install`
 2. `npm run dev`
-3. Open `http://localhost:5173`
+3. Open `https://my-blog-frontend-sd32.onrender.com
 
 ## FeaturesAuthentication (Login, Signup, JWT/Sessions)
 - User Profile Management
@@ -20,7 +20,7 @@
 - `useLocalStorage` hook used for tasks persistence.
 
 ## Live Demo URL
-
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-blue)](https://my-blog-frontend-sd32.onrender.com/)
 
 ## Image of the Application
 ![image alt](https://github.com/PLP-MERN-Stack-Development/mern-stack-integration-Mulusew-D/blob/9c2365d442b6c17d116265e41604a2e9058da460/Frontend/Home.png)
