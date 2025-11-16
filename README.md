@@ -1,9 +1,5 @@
 # Week 4: MERN Blog
-
-## Run
-1. `npm install`
-2. `npm run dev`
-3. Open `https://my-blog-frontend-sd32.onrender.com
+- MY Blog
 
 ## FeaturesAuthentication (Login, Signup, JWT/Sessions)
 - User Profile Management
@@ -14,10 +10,6 @@
 - Responsive UI (Mobile + Desktop)
 - Dark/Light Mode
 - Optimized API with Error Handling
-
-## Notes
-- Theme is persisted in `localStorage` and toggles `dark` class on `<html>`.
-- `useLocalStorage` hook used for tasks persistence.
 
 ## Live Demo URL
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-blue)](https://my-blog-frontend-sd32.onrender.com/)
